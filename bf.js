@@ -35,5 +35,5 @@ function validate(s) {
     if (s.charAt(i) == ']') b--;
     if (b < 0) return false;
   }
-  return true;
+  return (b == 0);
 }
